@@ -7,10 +7,10 @@ This work is about generating text by training language models based on Markov C
 The goal of a language model is to probabilty of appearing a text.
 
 - Chain rule:
-$$p(w) = p(w_1) * p(w_2) * p(w_3) * ... * p(w_k)$$
+<p align="center"><img src="/tex/1043de905170b00217d0c78afcbfed8f.svg?invert_in_darkmode&sanitize=true" align=middle width=292.49237489999996pt height=16.438356pt/></p>
 
 - Markov assumption:
-$$p(w) = p(w_1|start) * p(w_2|w_1) * p(w_3|w_2) * ... * p(w_k|w_{k-1})$$
+<p align="center"><img src="/tex/d19308cd1fea98fe6a7e1162d15d199e.svg?invert_in_darkmode&sanitize=true" align=middle width=421.86598245pt height=16.438356pt/></p>
 
 
 ## Markov Language Model
